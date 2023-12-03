@@ -1,0 +1,20 @@
+#headSelector {
+    position: relative;
+    bottom: 220px;
+    left: 160px;
+}
+#torsoSelector {
+    position: relative;
+    bottom: 165px;
+    left: 110px;
+}
+#legsSelector {
+    position: relative;
+    bottom: 110px;
+    left: 60px;
+}
+#feetSelector {
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+}
