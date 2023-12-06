@@ -18,3 +18,34 @@
     bottom: 60px;
     left: 10px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+body{
+    background-color: beige;
+    background-image: linear-gradient(to bottom right, rgb(252, 205, 118), beige);
+    min-height: 1200px;
+}
+#runningStats {
+    height: 700px;
+    width: 500px;
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+    
+}

@@ -6,9 +6,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
-<body>
-    <h1 class="title" style="text-align:center; font-size: 60px;">Welcome!</h1>
-    <div id="createCharacterTab" class="box" style="width: 300px; height: 500px; border: 1px solid; position: relative; left: 20px;">
+<body style=>
+    <h1 class="title" style="text-align:center; font-size: 60px;">Running Web</h1>
+
+    <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="float:right"><a href="#about">About</a></li>
+    </ul>
+
+    <div id="createCharacterTab" class="box is-hidden" style="width: 300px; height: 500px; border: 1px solid; position: relative; left: 20px;">
     <h2 class="subtitle" style="text-align:center">Create Character</h2>
     <div id="characterBody" style="font-size: 35px; text-align:center">
     <p id="head">*_*</p>
@@ -21,6 +29,11 @@
     <button id="feetSelector" onclick="changeFeet()">next</button>
     </div>
     <button id="submitCharacter" onclick="saveCharacter()">Create</button>
+    </div>
+
+    <div id="runningStats" class="box">
+    <h1 class="title" style="text-align:center">Running Stats</h1>
+
     </div>
 
     <script src="characterCreator.js"></script>
